@@ -8,8 +8,9 @@
 .i-left{
     display: flex;
     position: relative;
-    flex: 1; tion: column;
-    gap:2rem;
+    flex: 1; 
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .i-name{
@@ -41,11 +42,19 @@
     height: 2rem;
     
 }
+.i-icons{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem; 
+}
+.i-icons>*{
+    transform: scale(0.5);
+}
 
+.i-icons>*:hover{
+    cursor: pointer;
 
-
-
-
+}
 
 .i-right{
     flex: 1;

@@ -2,7 +2,7 @@ import React from 'react'
 import './Intro.css'  
 import Github from '../img/github.png';
 import LinkedIn from '../img/linkedin.png';
-import Instagram from '../img/instagram.png';
+import Instagram from '../img/instagram.png'; 
 const Intro = () => {
   return (
     <div className="intro">
@@ -16,13 +16,24 @@ const Intro = () => {
                 strong interest in Data Science
             </span>
         </div>
+
         <button className=" button i-button">Hire me</button>
-        <div className="i-cons">
+        
+        <div className="i-icons">
+          <a href='https://github.com/ANKIT-777' target="_blank">
           <img src= {Github} alt="" />
-          <img src= {LinkedIn} alt="" />
-          <img src= {Instagram} alt="" />
+          </a>
+         <a href="https://www.linkedin.com/in/ankit176/"  target="_blank" > 
+         <img src= {LinkedIn} alt="" />
+         </a>
+         <a href="https://www.instagram.com/axshvlogs2.0/" target="_blank">
+         <img src= {Instagram} alt="" />
+         </a>
+  
+          
 
         </div> 
+
         </div>
         <div className="i-right">
           i am right side 
