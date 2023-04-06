@@ -2,6 +2,7 @@
 import './App.css' 
 import Navbar from './Compontents/Navbar/Navbar';
 import Intro from './Compontents/Intro';
+import Services from './Compontents/Services/services';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Intro/>
+      <Services/>
       
     </div>
   );
