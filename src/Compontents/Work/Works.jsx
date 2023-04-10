@@ -1,10 +1,10 @@
 import React from 'react'
 import './Work.css'
-import Lpu from "../../img/lpulogo.png"
-import GeekForGeek from "../../img/GeeksforGeeks logo.png"
-import Ineuron from "../../img/ineuron-logo.png"
-import Coursera from "../../img/coursera logo .png"
-import programmingpathsala from "../../img/proglogo.png"
+import Upwork from "../../img/Upwork.png"
+import Fiverr from "../../img/fiverr.png"
+import Amazon from "../../img/amazon.png"
+import Shopify from "../../img/Shopify.png"
+import Facebook from "../../img/Facebook.png"
 
 
 
@@ -27,7 +27,29 @@ const Works = () => {
 
         {/* right side */}
         
-        <div className="right-side"></div>
+        <div className="right-side">
+          <div className="w-mainCircle">
+            <div className="w-secCircle">
+              <img src={Upwork} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img src={Fiverr} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img src={Amazon} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img src={Shopify} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img src={Facebook} alt="" />
+            </div>
+
+          </div>
+          {/* { Background Circles } */}
+          <div className="w-backCircle-blueCircle"></div>
+          <div className="w-backCircle yellowCircle"></div>
+        </div>
 
 
     </div>
