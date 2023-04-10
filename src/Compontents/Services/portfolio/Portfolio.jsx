@@ -13,17 +13,20 @@ const Portfolio = () => {
         <span>Recent Projects</span>
         <span>Portfolio</span>
         {/* slider */}
-        <Swiper>
+        
+        <Swiper
+        spaceBetween = {30}
+        slidesPerView = {3}
+        grabCursor = {true} 
+        className = 'portfolio-slider'
+        >
             <SwiperSlide>
                 <img src={Slidebar} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
+            </SwiperSlide> <SwiperSlide>
                 <img src={ECommerce} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
+            </SwiperSlide>  <SwiperSlide>
                 <img src={MusicApp}   alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
+            </SwiperSlide> <SwiperSlide>
                 <img src={HOC} alt="" />
             </SwiperSlide>
         </Swiper>
