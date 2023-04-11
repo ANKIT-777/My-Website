@@ -6,6 +6,7 @@ import Services from './Compontents/Services/services';
 import Experience from './Compontents/Experience/Experience';
 import Works from './Compontents/Work/Works';
 import Portfolio from './Compontents/Services/portfolio/Portfolio';
+import Contact from './Compontents/Contact/Contact';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Experience/>
       <Works/>
       <Portfolio/>
+      <Contact/>
 
     </div>
   );
