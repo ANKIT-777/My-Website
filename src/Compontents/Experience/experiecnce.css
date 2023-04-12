@@ -5,12 +5,14 @@
     gap: 5rem;
     height: 30vh;
     margin-bottom: 8rem;
+    color: black;
 }
 
 .achievements{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
 
 }
 

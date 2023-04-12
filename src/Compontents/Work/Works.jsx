@@ -5,15 +5,18 @@ import Fiverr from "../../img/fiverr.png"
 import Amazon from "../../img/amazon.png"
 import Shopify from "../../img/Shopify.png"
 import Facebook from "../../img/Facebook.png"
-
+import { themeContext } from '../../Context'
+import { useContext } from 'react';
 
 
 
 const Works = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="works">
       <div className="awesome">
-        <span>Had Training from these</span>
+        <span style={{color: darkMode? 'white': ''}}>Had Training from these</span>
         <span>Companies</span>
         <span>I have made some cool projects which can be showcased here and it would be very clear to you 
        <br />
