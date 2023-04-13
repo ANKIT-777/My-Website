@@ -1,3 +1,6 @@
+import React from 'react';
+
+import { unstable_createRoot } from 'react-dom';
 
 import './App.css' 
 import Navbar from './Compontents/Navbar/Navbar';
@@ -18,7 +21,8 @@ import { useContext } from 'react';
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-
+ 
+  
   return (
     <div className="App"
     style={{

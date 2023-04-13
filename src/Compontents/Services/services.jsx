@@ -16,7 +16,7 @@ const Services = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="services">
+    <div className="services" id = 'Services'>
         {/*left side*/}
         <div className="awesome">
         <span style={{color: darkMode? 'white': ''}}>My Awesome</span>
@@ -41,8 +41,8 @@ const Services = () => {
         }}>
             <Card
             emoji = {HeartEmoji}
-            heading = {'Design'}
-            detail = {"Figma,Sketch ,Photshop,Adobe,Adobe xd"}
+            heading = {'Data Science'}
+            detail = {"Excel,Tableu,Python,R-prog"}
             />
         </div>
         {/*services card */}

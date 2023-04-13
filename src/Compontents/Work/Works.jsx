@@ -30,7 +30,7 @@ const Works = () => {
 
         {/* right side */}
         
-        <div className="right-side">
+        <div className="w-right">
           <div className="w-mainCircle">
             <div className="w-secCircle">
               <img src={Upwork} alt="" />
@@ -40,23 +40,22 @@ const Works = () => {
             </div>
             <div className="w-secCircle">
               <img src={Amazon} alt="" />
-            </div>
+            </div>{" "}
             <div className="w-secCircle">
               <img src={Shopify} alt="" />
             </div>
             <div className="w-secCircle">
               <img src={Facebook} alt="" />
             </div>
+{/* { Background Circles } */}
+            <div className="w-backCircle blueCircle"></div>
+          <div className="w-backCircle yellowCircle"></div>
 
           </div>
-          {/* { Background Circles } */}
-          <div className="w-backCircle-blueCircle"></div>
-          <div className="w-backCircle yellowCircle"></div>
+          
         </div>
-
-
     </div>
-  )
-}
+  );
+};
 
 export default Works

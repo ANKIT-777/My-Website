@@ -16,13 +16,15 @@ import { useContext } from 'react';
 
 
 
+
   
 
 const Intro = () => {
 
-  
+ 
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+  
   
   return (
     <div className="intro">
@@ -57,10 +59,12 @@ const Intro = () => {
           <img src={Vector2} alt="" />
           <img src={boy} alt=""/>
           <img src={glassesimoji} alt="" />
-          <div style={{top:'-4%',left:'68%'}}>
+          <div style={{top:'-4%',left:'68%'}}
+          className='floatind-div '>
             <FloatingDiv image = {Crown} txt1='Data' txt2='Scientist'/>
           </div>
-          <div style={{top: '18rem', left: '0rem'}}>
+          <div style={{top: '18rem', left: '0rem'}}
+          className='floatind-div '>
             <FloatingDiv image={thumbup} txt1 = 'Competitive' txt2 = 'Coding' />
           </div>
           <div className='blur' style={{bacground : "rgb (238 210 255"}}></div>
