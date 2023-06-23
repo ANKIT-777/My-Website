@@ -29,9 +29,11 @@ const Navbar = () => {
                     
                 </ul>
             </div>
+            <a href="https://github.com/ANKIT-777">
             <button className="button">
                 Contact
             </button>
+            </a>
         </div>
     </div>
   )
