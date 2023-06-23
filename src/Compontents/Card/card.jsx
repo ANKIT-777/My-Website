@@ -7,7 +7,9 @@ const card = ({emoji,heading,detail}) => {
         <img src={emoji} alt="" />
         <span>{heading} </span>
         <span>{detail}</span>
-        <button className="c-button">Learn More</button>
+        <a href="https://github.com/ANKIT-777">
+        <button className="button">Learn More</button>
+        </a>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png"; 
 import Card from '../Card/card';
-import Resume from '../Services/resume.pdf'
+import Resume from '../Services/resume.pdf';
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 
@@ -50,7 +50,7 @@ const Services = () => {
           <Card
           emoji={Glasses}
           heading={"Developer"}
-          detail={"Html,Css,JavaScript,React"}
+          detail={"MongoDb,Expresjs,ReactJs,NodeJS"}
           
           />
         </div>
@@ -58,8 +58,8 @@ const Services = () => {
         <div style={{ top: "19rem",  left : "12rem" }}>
         <Card
         emoji={Humble}
-        heading={"UI/UX"}
-        detail={"Html,Css,JavaScript,React"}
+        heading={"Coding Problems"}
+        detail={"400+ questions solved overall"}
 
         />
         
